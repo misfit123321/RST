@@ -5,7 +5,8 @@ package rst;
 		import java.util.Random; 
 	import java.util.Scanner; // I use scanner because it's command line.
 	
-
+	//Created by Jordan Cabana
+    //Date: made Friday, June 16
 			public class diceroll {
 
 		
@@ -21,8 +22,7 @@ public static void main(String[] args) {
 
 	    Password = "123";
 	    Username = "Dice";
-//Created by Jordan Cabana
-	    //Date: made Friday, June 16
+
 	    Scanner input1 = new Scanner(System.in);
 	    System.out.println("Enter Username : ");
 	    username1 = input1.next();
