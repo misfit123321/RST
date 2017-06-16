@@ -15,8 +15,8 @@ package rst;
 
 public static void main(String[] args) {
 	 System.out.println("Username = Dice:Pass = 123");
-	String password1;
-	 String username1;
+	String password1; // this is for the login system to display the password
+	 String username1;// this is for the login system to display the username
 	 String Username;
 	    String Password;
 
@@ -33,7 +33,7 @@ public static void main(String[] args) {
 
 	    if (username1.equals(Username) && password1.equals(Password)) {
 
-	        System.out.println("Access Granted!");
+	        System.out.println("Access Granted!"); //this is for when you get it correct it will display "Access Granted!"
 	        
 	    }
 
@@ -72,7 +72,7 @@ public static void main(String[] args) {
 	
 	}
 
-}
+}//This was the program I made for rolling dice
 
 private static int frequency(int i) {
 
